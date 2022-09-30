@@ -123,35 +123,6 @@
     text-align: justify;
 }
 
-
-/* .aside-cont{
-    display: flex;
-    justify-content:flex-start;
-    /* border-bottom: solid #FFCDFE;
-    border-top: solid #FFCDFE; 
-    border: solid #FFCDFE
-   
-}
-
-.contenedor-imagenes {
-    padding: 30px 20px;
-
-    display: flex;
-    justify-content:flex-end;
-    
-}
-
-.imagen{
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 40px;
-}
-    
-
-.imagen img{
-    border-radius: 10px;
-}
- */
 .types h2{
     padding-left :35px;
     color:#FF91FA;
