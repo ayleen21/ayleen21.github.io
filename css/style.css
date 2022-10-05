@@ -1,49 +1,16 @@
-.navbar-menu{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
 
-
-.nav-logo{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-  }
-
-.nav-logo img{
-    padding-top: 10px;
-    width:180px;
-    margin-bottom: 10px;
-  }
-
-.nav-options{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: nowrap;
-    background-color:#FADFF9;
-    text-align: center;
+.nav-link{
+    font-size: 17px;
+    font-family:Arial, Helvetica, sans-serif
 
 }
 
-.nav-enlace{
-    background: #FF91FA;
-    color: white;
-    padding: 10px 100px;
+.nav-link:hover{
     text-decoration: none;
-    margin: 10px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.nav-enlace:hover{
-    text-decoration: none;
-    background-color: #FFA8FE;
+    background-color: #fbd0fa;
     color: black;
+    border-radius: 5px;
+
 }
 
 
@@ -78,6 +45,7 @@
 .introduction > p{
     text-align: justify;
     font-size: 20px;
+    
   
 }
 
@@ -96,19 +64,20 @@
 }
 
 .imagen img{
-    width: 700px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
     border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+
 }
 
 .contenedor-aside{
     justify-content: flex-end;
-    align-items: flex-end;
-    padding: 40px 30px;
+    padding:30px 20px;
     font-size: 20px;
     border: solid  #FFCDFE;
     border-radius: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 1px;
     
 }
@@ -116,6 +85,12 @@
 .contenedor-aside h2{
     text-align: center;
     color:#FF91FA;
+    font-family: monospace;
+    text-decoration:underline 2px;
+    font-size: 40px;
+
+
+
 
 }
 
@@ -127,6 +102,8 @@
     padding-left :35px;
     color:#FF91FA;
     text-decoration:underline 2px;
+    font-family: monospace;
+    font-size: 40px;
 
 
 }
@@ -145,6 +122,76 @@
 
 }
 
+.card{
+    padding: 30px 30px;
+}
+
+.card img{
+    height: 280px;
+
+}
+
+.card h2{
+    color:#FF91FA;
+    font-family: monospace;
+    padding: 20px 0px;
+    text-decoration:underline 2px;
+    font-size: 40px;
+
+}
+
+.iconos {
+    font-size: 25px;
+}
+
+.slider{
+    width: 70%;
+    margin:auto;
+    padding: 0;
+    overflow: hidden;
+}
 
 
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 600%;
+
+    animation: cambio 10s infinite alternate linear;
+      
+}
+
+.slider h2{
+    color:#FF91FA;
+    font-family: monospace;
+    padding: 20px 0px;
+    text-decoration:underline 2px;
+    font-size: 40px;
+
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+
+}
 
